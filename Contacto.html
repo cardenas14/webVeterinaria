@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Contactos.css">
+    <script src="https://kit.fontawesome.com/7f35cadcb9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/chat.css">
+    <link rel="stylesheet" href="static/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Animal Center Clinica Veterinaria</title>
+</head>
+<header>
+    <div class="contenedor-header">
+        <div class="content-image">
+            <img class="logo" src="img/logo.png" alt="Logo de la empresa"> 
+        </div>
+        <div class="textos pt-0">
+            <p class="mb-0"><b>Animal Center</b></p>
+            <p class="mb-0"><b>Clínica Veterinaria</b></p>
+        </div>
+        <div class="contenedor-nav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="NosotrosYovana.html">Nosotros</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+
+                    <li><a href="Contacto.html">Contactos</a></li>
+                    <li><a href="PagLogin.php">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<body>
+
+
+<div class="Contactos" style="background:#35b7ab; margin-top: 6.2rem; text-align: center;">
+    <div >
+        <div>
+
+            <p class="fs-6 text-Dark"><a class="text-decoration-none" href="index.html"><img
+                    src="img/house-door-fill.svg" class="p-1">Inicio</a> > <a class="text-decoration-none"
+                                                                               href="Contacto.html">Contactos</a></p>
+        </div>
+
+        <div>
+            <h1 style="font-family: 'Exo 2', sans-serif; font-weight: bold ;font-size: 45px">Contactos</h1>
+        </div>
+
+    </div>
+</div>
+
+
+
+<main class="container-fluid">
+    <div class="row ">
+
+        <div class=" col-3  ">
+
+            <div class="row border p-4 mb-3 " style="background-color: #f1f1f1de;">
+                <div class="col-3">
+                    <img src="img/map.svg" width="100% justify-content-center">
+                </div>
+
+                <div class="col-9  justify-content-center ">
+
+                    <div>
+                        <p>UBICACIÓN</p>
+                        <p>Av. Jose Carlos Mariategui N 2291 - 2da Etapa</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="row border p-4  mb-3 " style="background-color: #f1f1f1;">
+                <div class="col-3">
+                    <img style="color: #0b5ed7" src="img/alarm.svg" width="100%">
+                </div>
+
+                <div class="col-9  justify-content-center">
+                    <div>
+                        <p>CONTACTO</p>
+                        <p>(01) 421-8941</p>
+                        <p>vetanimalcenter@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row border p-4  mb-3 " style="background-color: #f1f1f1de;">
+
+                <div class="col-3">
+                    <img src="img/telephone.svg" width="100%">
+                </div>
+
+                <div class="col-9 justify-content-center">
+                    <div>
+                        <p>HORARIO</p>
+                        <p>Lunes  - 9 AM : 10 PM</p>
+                        <p>Sunday – 10 AM : 6 PM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row border p-4  " style="background-color: #f1f1f1de;">
+                <div class="col-3">
+                    <img src="img/map.svg" width="100% justify-content-center">
+                </div>
+
+                <div class="col-9  justify-content-center ">
+
+                    <div>
+                        <p>UBICACION</p>
+                        <p>49, Suitland Street, c.g square road, Melbourne, Australia</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <!--se pone el form donde ira name / action- post / se conecta con php-->
+        <div class="col-sm-5 border ">
+            <div class="info p-3 ">
+                
+                <form action="ContactoGuardar.php" method="post">
+                    <div class="mb-3">
+                        <label for="example1" class="form-label">Nombres</label>
+                        <input type="text" name="innombre" class="form-control" id="example1"
+                               placeholder="Ingrese nombres">
+                    </div>
+                    <div class="mb-3">
+                        <label for="example2" class="form-label">Apellidos</label>
+                        <input type="text" name="inapellido" class="form-control" id="example2"
+                               placeholder="Ingrese apellidos">
+                    </div>
+                    <div class="mb-3">
+                        <label for="example3" class="form-label">DNI</label>
+                        <input type="text" name="indni" class="form-control" id="example3"
+                               placeholder="Ingrese DNI">
+                    </div>
+                    <div class="mb-3">
+                        <label for="example4" class="form-label">Telefono</label>
+                        <input type="text" name="intelefono" class="form-control" id="example4"
+                               placeholder="Ingrese su telefono">
+                    </div>
+                    <div class="mb-3">
+                        <label for="example5" class="form-label">Correo</label>
+                        <input type="text" name="incorreo" class="form-control" id="example5"
+                               placeholder="Ingrese su correo">
+                    </div>
+                    <div class="mb-3">
+                        <label for="example6" class="form-label">Fecha</label>
+                        <input type="date" name="infecha" class="form-control" id="example6">
+                    </div>
+                    <div class="mb-3">
+                            <textarea class="form-control" name="inconsulta" id="exampleFormControlTextarea1" rows="3"
+                                      placeholder="Ingrese su consulta"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary ps-4  pe-4">Enviar</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+<div class="chat-bar-collapsible">
+    <button id="chat-button" type="button" class="collapsible">¡Conversa con nosotros!
+        <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+    </button>
+
+    <div class="content">
+        <div class="full-chat-block">
+            
+            <div class="outer-container">
+                <div class="chat-container">
+                    
+                    <div id="chatbox">
+                        <h5 id="chat-timestamp"></h5>
+                        <p id="botStarterMessage" class="botText"><span>Cargando...</span></p>
+                    </div>
+
+                    
+                    <div class="chat-bar-input-block">
+                        <div id="userInput">
+                            <input id="textInput" class="input-box" type="text" name="msg"
+                                placeholder="Presiona 'Enter' para enviar el mensaje">
+                            <p></p>
+                        </div>
+
+                        <div class="chat-bar-icons">
+                            <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                onclick="heartButton()"></i>
+                            <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                onclick="sendButton()"></i>
+                        </div>
+                    </div>
+
+                    <div id="chat-bar-bottom">
+                        <p></p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<section class="container-fluid">
+    <div class="row">
+        <div class="col "></div>
+        <div class="col-8 m-5 align-content-center border">
+            <h1 class="h3">Ubicación Google</h1>
+            <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d614.5456496484485!2d-76.99836496963083!3d-12.035141989920357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5e347a2a13d%3A0xfd048fb2210ad2bd!2sVeterinaria%20Animal%20Center!5e0!3m2!1ses-419!2spe!4v1631745511554!5m2!1ses-419!2spe"
+                    width="100%" height="480px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+        <div class="col"></div>
+    </div>
+</section>
+
+
+<footer>
+
+    <div class="contenedor-footer">
+        <div class="contacto">
+
+            <p><i class="fas fa-clock"></i>Horarios</p>
+            <p>Atención: Lunes a Domingo de 7 am a 8 pm</p>
+            <p>Clínica Veteniaria Animal Center</p>
+
+            <p><i class="fas fa-map-marker-alt"></i>Av. Jose Carlos Mariategui N 2291 - 2da Etapa</p>
+            <p>El Agustino 051 Lima, Peru</p>
+        </div>
+        <div class="contacto2">
+
+            <p><i class="fas fa-envelope"></i></a>vetanimalcenter@gmail.com</p>
+
+            <p><i class="fas fa-phone"></i>(01) 421-8941</p>
+
+            <p><a
+                    href="https://api.whatsapp.com/send?phone=51993672090&text=Hola,%20estoy%20interesando%20en%20el%20servicio%20de&fbclid=IwAR1NSoFZBPCDkk27YiiyMKbtJionmn9-ebiO53GdHXUGYmvo4wwulwYKBOU"><i
+                    class="fab fa-whatsapp"></i></a>993 672 090</p>
+            <p>O puedes contactarnos a travez de <a href="https://www.facebook.com/AnimalCenterElAgustino"><i
+                    class="fab fa-facebook"></i></a> <a href="#"><i class="fab fa-instagram"></i></a></p>
+        </div>
+        <div class="footer-image">
+            <img class="logo" src="img/logo.png" alt="">
+        </div>
+
+
+    </div>
+
+    <div class="copy">
+        © 2021 Todos los derechos reservados.
+    </div>
+</footer>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="static/scripts/responses.js"></script>
+<script src="static/scripts/chat.js"></script>
+
+</html>

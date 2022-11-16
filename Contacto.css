@@ -1,0 +1,16 @@
+
+.Contactos {
+    background-color: bisque;
+    margin-top: 6.2rem;
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+    text-align: center;
+
+}
+
+
+.content-image {
+   color: #2ec4b6;
+}
+

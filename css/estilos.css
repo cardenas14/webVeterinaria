@@ -1,0 +1,22 @@
+
+.bg-verde{
+   background-color: #00C3AC;
+}
+
+.hover-celeste {
+   color: #000;
+ }
+ 
+ .hover-celeste:hover {
+
+   color: #00C3AC;
+ }
+ .btn-primary{
+    background-color: #333333;
+    border: none;
+ }
+
+ .btn-primary:hover{
+   background-color: #00C3AC;
+   border: none;
+}
